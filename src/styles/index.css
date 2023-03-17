@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    font-weight: 500;
+    font-family: "Inter", sans-serif;
+}
+.company{
+    font-style: italic;
+}
+.circle {
+    border-radius: 50%;
+    border: 1px solid transparent;
+}
+.black{
+    background-color: black;
+}
+.grey{
+    color: rgba(128, 128, 128, 0.889);
+    font-size: 14px;
+}
+
+.connect{
+    border-top: 1px solid rgba(128, 128, 128, 0.666);
+}
+.overlay {
+    background-color: rgba(0, 0, 0, 0.444);
+}
+.shadow{
+    box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+}
+.choose{
+    background: url('../logo/service2.jpg') #225574;
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-position:center;
+    background-blend-mode: multiply;
+}
